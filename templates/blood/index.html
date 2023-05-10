@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+
+<head>
+    <style>
+        .xyz{
+          margin-bottom: 0px;
+          background-image: url('{% static "image/homepage.jpg" %}');
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      </style>
+      
+</head>
+
+
+<body>
+  {% include "blood/navbar.html" %}
+<br>
+
+
+  {% include "blood/footer.html" %}
+
+
+</body>
+
+</html>
