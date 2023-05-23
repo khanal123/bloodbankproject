@@ -8,6 +8,14 @@ class BloodForm(forms.ModelForm):
         model=models.Stock
         fields=['bloodgroup','unit']
 
+
+class SearchForm(forms.ModelForm):
+    class Meta:
+        model = models.Search
+        fields = ['address']
+
+
+
 class RequestForm(forms.ModelForm):
     class Meta:
         model=models.BloodRequest

@@ -53,7 +53,7 @@ def donate_blood_view(request):
             donor= models.Donor.objects.get(user_id=request.user.id)
             blood_donate.donor=donor
             blood_donate.save()
-            return HttpResponseRedirect('donation-history')  
+            return HttpResponseRedirect('donate-blood')
     return render(request,'donor/donate_blood.html',{'donation_form':donation_form})
 
 

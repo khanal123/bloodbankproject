@@ -5,12 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa12b4d5-64d1-4c7a-8613-3194c3ab82ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blood/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/blood/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blood/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blood/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blood/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blood/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bloodbankmanagement/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bloodbankmanagement/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/donor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/donor/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/donor/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/donor/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/homepage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/homepage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/logout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshot/admindashboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshot/blooddonation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshot/bloodrequest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshot/homepage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshot/logout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/vendor/select2/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blood/admin_blood.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blood/admin_blood.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blood/admin_donation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blood/admin_donation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blood/admin_donor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blood/admin_donor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blood/admin_patient.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blood/admin_patient.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blood/admin_request.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blood/admin_request.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blood/admin_request_history.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blood/admin_request_history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blood/adminbase.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blood/adminbase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blood/adminlogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blood/adminlogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blood/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blood/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blood/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blood/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blood/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blood/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blood/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blood/update_donor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blood/update_donor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blood/update_patient.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blood/update_patient.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/donor/donate_blood.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/donor/donate_blood.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/donor/donation_history.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/donor/donorbase.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/donor/donorbase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/donor/donorlogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/donor/donorlogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/donor/donorsignup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/donor/donorsignup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/donor/makerequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/donor/makerequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/patient/makerequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/patient/makerequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/patient/my_request.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/patient/my_request.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/patient/patient_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/patient/patient_dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/patient/patientbase.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/patient/patientbase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/patient/patientlogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/patient/patientlogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/patient/patientsignup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/patient/patientsignup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,16 +75,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Dell/Downloads/bloodbanksystem",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/OneDrive - National School of Sciences/BSc CSIT 7th sem/Project/bloodbanksystem&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Downloads\bloodbanksystem\static\json" />
+      <recent name="C:\Users\Dell\Downloads\bloodbanksystem\templates\blood" />
+      <recent name="C:\Users\Dell\Downloads\bloodbanksystem\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bloodbanksystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/blood" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/blood/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

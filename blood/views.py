@@ -1,5 +1,6 @@
 from django.shortcuts import render,redirect,reverse
 from . import forms,models
+from .forms import SearchForm
 from django.db.models import Sum,Q
 from django.contrib.auth.models import Group
 from django.http import HttpResponseRedirect
@@ -68,6 +69,14 @@ def afterlogin_view(request):
         return redirect('patient/patient-dashboard')
     else:
         return redirect('admin-dashboard')
+def search(request):
+    forms=SearchForm()
+    if request.method=="POST":
+        forms=SearchForm(request.POST)
+        forms.save()
+        address=forms.cleaned_data['address']
+    return render(request,'blood/search.html')
+
 
 @login_required(login_url='adminlogin')
 def admin_dashboard_view(request):

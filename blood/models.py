@@ -6,7 +6,8 @@ class Stock(models.Model):
     unit=models.PositiveIntegerField(default=0)
     def __str__(self):
         return self.bloodgroup
-
+class Search(models.Model):
+    address=models.CharField(max_length=100)
 class BloodRequest(models.Model):
     request_by_patient=models.ForeignKey(pmodels.Patient,null=True,on_delete=models.CASCADE)
     request_by_donor=models.ForeignKey(dmodels.Donor,null=True,on_delete=models.CASCADE)
